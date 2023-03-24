@@ -1,6 +1,4 @@
 # GitHubTraining01
 * Test Repo for GitHub training courses.
 
-* Test connection with GitHub Desktop. Test passed.
-
-* Test new branch with pull request.
+* [Learning GitHub](https://www.linkedin.com/learning/learning-github-18719601/create-a-pull-request?autoSkip=true&autoplay=true&resume=false&u=68137562)
