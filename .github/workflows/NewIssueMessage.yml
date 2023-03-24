@@ -6,10 +6,13 @@ jobs:
   comment:
     name: Comment
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
       - name: Automatic Comment
         uses: peter-evans/create-or-update-comment@v1
         with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}        
           issue-number: ${{ github.event.issue.number }}
           body: |
             Thanks for submitting a new issue! We have received it and will follow up with you soon.
