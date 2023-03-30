@@ -15,4 +15,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}        
           issue-number: ${{ github.event.issue.number }}
           body: |
-            Attention: ${{ github.event.issue.number }} has been closed. Thank you for your assistance!
+            Attention: Your issue has been closed. Thank you for your assistance!
